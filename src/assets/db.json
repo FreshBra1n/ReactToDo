@@ -73,6 +73,12 @@
       "text": "123",
       "completed": false,
       "id": 19
+    },
+    {
+      "listId": 2,
+      "text": "Да это сложнее чем кроссовки ))",
+      "completed": true,
+      "id": 20
     }
   ],
   "colors": [
