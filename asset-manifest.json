@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactToDo/static/css/main.2e046663.chunk.css",
+    "main.js": "/ReactToDo/static/js/main.d70f0f6e.chunk.js",
+    "main.js.map": "/ReactToDo/static/js/main.d70f0f6e.chunk.js.map",
+    "runtime-main.js": "/ReactToDo/static/js/runtime-main.cbdefae3.js",
+    "runtime-main.js.map": "/ReactToDo/static/js/runtime-main.cbdefae3.js.map",
+    "static/js/2.9fb36cc7.chunk.js": "/ReactToDo/static/js/2.9fb36cc7.chunk.js",
+    "static/js/2.9fb36cc7.chunk.js.map": "/ReactToDo/static/js/2.9fb36cc7.chunk.js.map",
+    "index.html": "/ReactToDo/index.html",
+    "static/css/main.2e046663.chunk.css.map": "/ReactToDo/static/css/main.2e046663.chunk.css.map",
+    "static/js/2.9fb36cc7.chunk.js.LICENSE.txt": "/ReactToDo/static/js/2.9fb36cc7.chunk.js.LICENSE.txt",
+    "static/media/add.c4fa83e1.svg": "/ReactToDo/static/media/add.c4fa83e1.svg",
+    "static/media/close.79bd8e40.svg": "/ReactToDo/static/media/close.79bd8e40.svg",
+    "static/media/edit.1bda04de.svg": "/ReactToDo/static/media/edit.1bda04de.svg",
+    "static/media/remove.f5660af3.svg": "/ReactToDo/static/media/remove.f5660af3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbdefae3.js",
+    "static/js/2.9fb36cc7.chunk.js",
+    "static/css/main.2e046663.chunk.css",
+    "static/js/main.d70f0f6e.chunk.js"
+  ]
+}
