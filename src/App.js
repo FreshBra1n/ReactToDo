@@ -14,11 +14,11 @@ function App() {
   let location = useLocation()
   useEffect(() => {
     axios
-      .get('http://localhost:3003/lists?_expand=color&_embed=tasks')
+      .get('https://60f5934318254c00176dff3f.mockapi.io/concat')
       .then(({ data }) => {
         setLists(data);
       });
-    axios.get('http://localhost:3003/colors').then(({ data }) => {
+    axios.get('https://60f5934318254c00176dff3f.mockapi.io/colors').then(({ data }) => {
       setColors(data);
     });
   }, []);
@@ -69,7 +69,7 @@ function App() {
     });
     setLists(newList);
     axios
-      .patch('http://localhost:3003/tasks/' + taskObj.id, {
+      .patch('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskObj.id, {
         text: newTaskText
       })
       .catch(() => {
@@ -90,7 +90,7 @@ function App() {
     });
     setLists(newList);
     axios
-      .patch('http://localhost:3003/tasks/' + taskId, {
+      .patch('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskId, {
         completed
       })
       .catch(() => {
@@ -108,7 +108,7 @@ function App() {
         return item
       })
       setLists(newList);
-      axios.delete('http://localhost:3003/tasks/' + taskId)
+      axios.delete('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskId)
         .catch(() => {
           alert('Не удалось удалить задачу !')
         });

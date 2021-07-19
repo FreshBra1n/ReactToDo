@@ -21,7 +21,7 @@ function AddTaskForm({ list, onAddTask }) {
             completed: false
         };
         setIsLoading(true)
-        axios.post('http://localhost:3003/tasks/', obj).then(({ data }) => {
+        axios.post('https://60f5934318254c00176dff3f.mockapi.io/tasks/', obj).then(({ data }) => {
             onAddTask(list.id, data)
             toggleFormVisible()
         }).catch(() => {
