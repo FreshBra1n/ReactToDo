@@ -69,7 +69,7 @@ function App() {
     });
     setLists(newList);
     axios
-      .patch('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskObj.id, {
+      .put('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskObj.id, {
         text: newTaskText
       })
       .catch(() => {
@@ -90,7 +90,7 @@ function App() {
     });
     setLists(newList);
     axios
-      .patch('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskId, {
+      .put('https://60f5934318254c00176dff3f.mockapi.io/tasks/' + taskId, {
         completed
       })
       .catch(() => {

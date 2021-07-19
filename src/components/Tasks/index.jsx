@@ -14,7 +14,7 @@ function Tasks({ list, onEditTitle, onAddTask, withoutEmpty, onRemoveTask, onCom
         const newTitle = window.prompt('Название заголовка', list.name)
         if (newTitle) {
             onEditTitle(list.id, newTitle)
-            axios.patch(' https://60f5934318254c00176dff3f.mockapi.io/lists/' + list.id, {
+            axios.put(' https://60f5934318254c00176dff3f.mockapi.io/lists/' + list.id, {
                 name: newTitle
             }).catch(() => {
                 alert('Не удалось обновить название списка !')
